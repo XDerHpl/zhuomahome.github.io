@@ -85,12 +85,4 @@ bundle install
 bundle exec jekyll serve
 ```
 
-如果本地没有安装 Jekyll，也可以直接预览静态首页：
-
-```bash
-python3 -m http.server 8000
-```
-
-然后打开 `http://127.0.0.1:8000/`。
-
 主要内容可在 `_config.yml` 中集中维护；页面结构位于根目录的 Markdown 文件，样式位于 `assets/css/style.css`。

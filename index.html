@@ -3,84 +3,160 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>马卓 | Homepage</title>
-  <meta name="description" content="马卓教授的个人主页">
+  <title>马卓 | 教师个人主页</title>
+  <meta name="description" content="马卓教授的学术个人主页">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div class="container">
-    <p class="site-title"><a href="index.html">Welcome to Zhuo Ma's Homepage</a></p>
+  <a class="skip-link" href="#main">跳转到正文</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="马卓个人主页">
+        <span class="brand-mark">马</span>
+        <span>
+          <strong>马卓</strong>
+          <small>Zhuo Ma</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#top" aria-current="page">主页</a>
+        <a href="#research">研究</a>
+        <a href="#publications">论文</a>
+        <a href="#teaching">教学</a>
+        <a href="#students">学生</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
+  </header>
 
-    <nav class="site-nav" aria-label="Main navigation">
-      <a href="index.html">Homepage</a>
-      <a href="#news">News!</a>
-      <a href="#research">Research</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#students">Students</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <main id="main" class="container page-shell">
+    <section id="top" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Academic Homepage</p>
+        <h1>马卓 <span>Zhuo Ma</span></h1>
+        <p class="lead">教授 · 请填写学院/大学</p>
+        <p class="hero-text">
+          这里是马卓的教师个人主页。页面采用简洁学术风格，便于展示个人简介、研究方向、最新动态、代表性论文、课程教学与招生信息。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#publications">查看论文</a>
+          <a class="button" href="mailto:your.email@example.edu">邮件联系</a>
+        </div>
+      </div>
+      <aside class="profile-card" aria-label="个人信息卡片">
+        <div class="avatar">马</div>
+        <h2>马卓</h2>
+        <p>教授</p>
+        <ul>
+          <li><strong>单位</strong><span>请填写学院/大学</span></li>
+          <li><strong>邮箱</strong><span><a href="mailto:your.email@example.edu">your.email@example.edu</a></span></li>
+          <li><strong>办公室</strong><span>请填写办公室地址</span></li>
+        </ul>
+      </aside>
+    </section>
 
-    <h1>马卓</h1>
+    <section class="notice">
+      <strong>招生信息</strong>
+      <p>欢迎对相关研究方向感兴趣的本科生、硕士生、博士生与博士后联系交流。请在邮件中附上简历、成绩单和代表性成果。</p>
+    </section>
 
-    <p>
-      马卓 (Zhuo Ma) is a professor. Please replace this sentence with a short biography, including education background, previous positions, and current affiliation.
-      The homepage follows the concise academic style of the reference site: plain text, blue links, simple sections, and publication lists.
-    </p>
+    <section class="grid two-columns">
+      <div class="card">
+        <h2>News</h2>
+        <ul class="timeline">
+          <li>
+            <time>2026-05</time>
+            <span>个人主页模板上线，后续将持续更新新闻、论文与课程信息。</span>
+          </li>
+          <li>
+            <time>2026-04</time>
+            <span>欢迎有科研兴趣的同学邮件联系，讨论研究实习与研究生申请机会。</span>
+          </li>
+        </ul>
+      </div>
 
-    <p>
-      Research Area: 请填写您的研究方向，例如人工智能、数据挖掘、机器学习、网络系统、数据库等。
-    </p>
+      <div id="research" class="card">
+        <h2>Research Interests</h2>
+        <ul class="tag-list">
+          <li>研究方向一：请替换为您的主要研究方向</li>
+          <li>研究方向二：请替换为您的主要研究方向</li>
+          <li>研究方向三：请替换为您的主要研究方向</li>
+        </ul>
+      </div>
+    </section>
 
-    <p>
-      实验室长期欢迎优秀本科生、硕士生、博士生和博士后联系交流。请在邮件中附上简历、成绩单和代表性成果。
-    </p>
+    <section id="publications" class="card">
+      <div class="section-heading">
+        <h2>Selected Publications</h2>
+        <a href="publications/">更多论文 →</a>
+      </div>
+      <ol class="publication-list">
+        <li>
+          <h3>示例论文题目：请替换为真实论文标题</h3>
+          <p>作者 A, 作者 B, 马卓</p>
+          <em>示例会议/期刊, 2026</em>
+          <span class="paper-links"><a href="#">[PDF]</a><a href="#">[Code]</a></span>
+        </li>
+        <li>
+          <h3>示例论文题目二：请替换为真实论文标题</h3>
+          <p>作者 A, 马卓, 作者 C</p>
+          <em>示例会议/期刊, 2025</em>
+          <span class="paper-links"><a href="#">[Project]</a></span>
+        </li>
+      </ol>
+    </section>
 
-    <p id="contact">Email: <a href="mailto:your.email@example.edu">your.email@example.edu</a></p>
+    <section class="grid two-columns">
+      <div id="teaching" class="card">
+        <h2>Teaching</h2>
+        <ul class="clean-list">
+          <li><strong>当前课程：</strong>请填写本学期课程</li>
+          <li><strong>上课时间：</strong>请填写时间地点</li>
+          <li><strong>历史课程：</strong>课程 A、课程 B、课程 C</li>
+        </ul>
+      </div>
 
-    <h2 id="news">News:</h2>
-    <ul class="news-list">
-      <li>05/2026: 个人主页模板上线，后续将持续更新新闻、论文与课程信息。</li>
-      <li>04/2026: 欢迎有科研兴趣的同学邮件联系，讨论研究实习与研究生申请机会。</li>
-    </ul>
+      <div id="students" class="card">
+        <h2>Students</h2>
+        <ul class="clean-list">
+          <li>在读学生：学生姓名 / 研究方向 / 入学年份</li>
+          <li>毕业学生：学生姓名 / 毕业去向 / 毕业年份</li>
+          <li>欢迎对相关研究方向感兴趣的同学联系。</li>
+        </ul>
+      </div>
+    </section>
 
-    <h2 id="research">Research:</h2>
+    <section id="contact" class="card contact-card">
+      <h2>Contact</h2>
+      <dl>
+        <div>
+          <dt>姓名</dt>
+          <dd>马卓 / Zhuo Ma</dd>
+        </div>
+        <div>
+          <dt>单位</dt>
+          <dd>请填写学院/大学</dd>
+        </div>
+        <div>
+          <dt>邮箱</dt>
+          <dd><a href="mailto:your.email@example.edu">your.email@example.edu</a></dd>
+        </div>
+        <div>
+          <dt>办公室</dt>
+          <dd>请填写办公室地址</dd>
+        </div>
+      </dl>
+    </section>
+  </main>
 
-    <h3>Preprint Papers</h3>
-    <ul class="paper-list">
-      <li>作者 A, 作者 B, 马卓. 示例预印本论文题目：请替换为真实论文标题. arXiv preprint 2026. <a href="#">Link</a></li>
-      <li>作者 A, 马卓, 作者 C. 示例预印本论文题目二：请替换为真实论文标题. arXiv preprint 2025. <a href="#">Link</a></li>
-    </ul>
-
-    <h3>Papers in 2026</h3>
-    <ul class="paper-list">
-      <li>作者 A, 作者 B, 马卓. 示例论文题目：请替换为真实论文标题. 示例会议/期刊 2026. <a href="#">PDF Download</a></li>
-      <li>作者 A, 马卓, 作者 C. 示例论文题目二：请替换为真实论文标题. 示例会议/期刊 2026. <a href="#">PDF Download</a></li>
-    </ul>
-
-    <h3>Papers in 2025</h3>
-    <ul class="paper-list">
-      <li>作者 A, 作者 B, 马卓. 示例论文题目三：请替换为真实论文标题. 示例会议/期刊 2025. <a href="#">PDF Download</a></li>
-    </ul>
-
-    <h3>Selected Publications</h3>
-    <ul class="paper-list">
-      <li>马卓, 作者 A, 作者 B. 代表性论文题目：请替换为真实论文标题. 示例会议/期刊. <a href="#">PDF</a> | <a href="#">Slides</a> | <a href="#">Code</a></li>
-      <li>马卓, 作者 C. 代表性论文题目二：请替换为真实论文标题. 示例会议/期刊. <a href="#">PDF</a></li>
-    </ul>
-
-    <h2 id="teaching">Teaching:</h2>
-    <ul>
-      <li>当前课程：请填写本学期课程、时间和地点。</li>
-      <li>历史课程：课程 A、课程 B、课程 C。</li>
-    </ul>
-
-    <h2 id="students">Students:</h2>
-    <ul>
-      <li>在读学生：学生姓名 / 研究方向 / 入学年份。</li>
-      <li>毕业学生：学生姓名 / 毕业去向 / 毕业年份。</li>
-    </ul>
-
-    <p class="footer">Last updated: 05/2026.</p>
-  </div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 马卓.</span>
+      <span>Static fallback + Jekyll-ready academic homepage.</span>
+    </div>
+  </footer>
 </body>
 </html>

@@ -45,17 +45,17 @@ selected_publications:
         url: "#"
 
 nav:
-  - title: "Homepage"
+  - title: "主页"
     url: "/"
-  - title: "Research"
+  - title: "研究"
     url: "/research/"
-  - title: "Publications"
+  - title: "论文"
     url: "/publications/"
-  - title: "Teaching"
+  - title: "教学"
     url: "/teaching/"
-  - title: "Students"
+  - title: "学生"
     url: "/students/"
-  - title: "Contact"
+  - title: "联系"
     url: "/contact/"
 
 markdown: kramdown
