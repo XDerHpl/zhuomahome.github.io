@@ -1,0 +1,62 @@
+title: "马卓 | 个人主页"
+description: "马卓教授的学术个人主页"
+lang: zh-CN
+url: "https://zhuomahome.github.io"
+baseurl: ""
+
+profile:
+  name: "马卓"
+  name_en: "Zhuo Ma"
+  title: "教授"
+  affiliation: "请在 _config.yml 中填写学院/大学"
+  email: "your.email@example.edu"
+  office: "请填写办公室地址"
+  google_scholar: "#"
+  github: "#"
+  photo: ""
+
+research_interests:
+  - "研究方向一：请替换为您的主要研究方向"
+  - "研究方向二：请替换为您的主要研究方向"
+  - "研究方向三：请替换为您的主要研究方向"
+
+recruiting: "欢迎对相关研究方向感兴趣的本科生、硕士生、博士生与博士后联系交流。请在邮件中附上简历、成绩单和代表性成果。"
+
+news:
+  - date: "2026-05"
+    text: "个人主页模板上线，后续将持续更新新闻、论文与课程信息。"
+  - date: "2026-04"
+    text: "欢迎有科研兴趣的同学邮件联系，讨论研究实习与研究生申请机会。"
+
+selected_publications:
+  - title: "示例论文题目：请替换为真实论文标题"
+    authors: "作者 A, 作者 B, 马卓"
+    venue: "示例会议/期刊, 2026"
+    links:
+      - label: "PDF"
+        url: "#"
+      - label: "Code"
+        url: "#"
+  - title: "示例论文题目二：请替换为真实论文标题"
+    authors: "作者 A, 马卓, 作者 C"
+    venue: "示例会议/期刊, 2025"
+    links:
+      - label: "Project"
+        url: "#"
+
+nav:
+  - title: "Homepage"
+    url: "/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "Students"
+    url: "/students/"
+  - title: "Contact"
+    url: "/contact/"
+
+markdown: kramdown
+permalink: pretty
