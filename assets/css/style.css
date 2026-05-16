@@ -1,0 +1,157 @@
+html {
+  background: #ffffff;
+}
+
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.container {
+  width: 1040px;
+  max-width: calc(100% - 32px);
+  margin: 0 auto;
+}
+
+a {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+.top-welcome {
+  background: #a40000;
+  border-bottom: 3px solid #6e0000;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+
+.top-welcome .container {
+  align-items: center;
+  display: flex;
+  min-height: 54px;
+}
+
+.university-logo {
+  flex: 0 0 auto;
+  height: 42px;
+  margin-right: 12px;
+  width: 42px;
+}
+
+.site-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.site-title a,
+.site-title a:visited {
+  color: #ffffff;
+}
+
+.site-nav {
+  margin: 0 0 18px;
+}
+
+.site-nav a {
+  margin-right: 0.7em;
+}
+
+.profile-block {
+  min-height: 210px;
+}
+
+.portrait-placeholder {
+  border: 1px solid #777777;
+  float: right;
+  height: 190px;
+  margin: 0 0 12px 28px;
+  text-align: center;
+  width: 150px;
+}
+
+.portrait-placeholder span {
+  color: #666666;
+  display: block;
+  font-size: 14px;
+  line-height: 1.25;
+  padding: 62px 12px 0;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.67em 0;
+  text-align: left;
+}
+
+h2 {
+  clear: both;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.83em 0;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 1em 0 0.4em;
+  text-align: left;
+}
+
+p {
+  margin: 1em 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul,
+ol {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 40px;
+}
+
+li {
+  margin: 0.28em 0;
+}
+
+.paper-list li,
+.news-list li {
+  margin-bottom: 0.55em;
+}
+
+.footer {
+  margin-top: 2em;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 16px;
+  }
+
+  .top-welcome .container {
+    min-height: 50px;
+  }
+
+  .university-logo {
+    height: 38px;
+    width: 38px;
+  }
+
+  .portrait-placeholder {
+    float: none;
+    margin: 0 0 14px;
+  }
+}
