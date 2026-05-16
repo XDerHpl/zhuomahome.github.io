@@ -1,32 +1,32 @@
 # zhuomahome.github.io
 
-马卓教授的个人主页，基于 Jekyll 与 GitHub Pages 构建。当前首页特意改成了接近 `https://yangtonghome.github.io/` 的极简学术主页风格：白底、默认 serif 字体、蓝色链接、简单导航、新闻和论文列表。
+Academic homepage for Professor Zhuo Ma, built with Jekyll and GitHub Pages. The current homepage intentionally follows a minimal academic style inspired by `https://yangtonghome.github.io/`: white background, serif font, blue links, simple navigation, news, and publication lists.
 
-> 注意：仓库根目录保留了 `index.html`，因此即使 GitHub Pages 没有触发 Jekyll 构建，首页也会立即显示新版教师主页；Jekyll 版本的内容仍可通过 `index.md` 和 `_config.yml` 维护。
+> Note: the repository root keeps `index.html`, so the new homepage is visible even when GitHub Pages does not run a Jekyll build. The Jekyll version can still be maintained through `index.md` and `_config.yml`.
 
-## 如何把部署地址改成 `https://zhuomahome.github.io/`
+## How to publish at `https://zhuomahome.github.io/`
 
-如果你现在看到的地址是：
+If the current URL is:
 
 ```text
 https://xderhpl.github.io/zhuomahome.github.io
 ```
 
-说明这个仓库目前是 **xderhpl 账号下的项目站点（Project Pages）**，而不是 **zhuomahome 账号/组织下的用户站点（User Pages）**。GitHub Pages 的规则是：
+then the repository is currently a **Project Pages** site under the `xderhpl` account, not a **User Pages** site under the `zhuomahome` account or organization. GitHub Pages uses these rules:
 
-- 仓库 `xderhpl/zhuomahome.github.io` 会发布到 `https://xderhpl.github.io/zhuomahome.github.io/`。
-- 只有仓库 `zhuomahome/zhuomahome.github.io` 才会发布到 `https://zhuomahome.github.io/`。
+- Repository `xderhpl/zhuomahome.github.io` publishes to `https://xderhpl.github.io/zhuomahome.github.io/`.
+- Only repository `zhuomahome/zhuomahome.github.io` publishes to `https://zhuomahome.github.io/`.
 
-### 推荐操作：把仓库放到 `zhuomahome` 账号/组织下面
+### Recommended approach: move the repository under `zhuomahome`
 
-1. 确认 GitHub 上存在用户名或组织名 `zhuomahome`。
-2. 在 `zhuomahome` 账号/组织下创建一个仓库，仓库名必须精确为：
+1. Confirm that the GitHub username or organization `zhuomahome` exists.
+2. Create a repository under `zhuomahome` with the exact name:
 
    ```text
    zhuomahome.github.io
    ```
 
-3. 把当前代码推送到这个新仓库：
+3. Push the current code to that repository:
 
    ```bash
    git remote -v
@@ -34,55 +34,63 @@ https://xderhpl.github.io/zhuomahome.github.io
    git push -u origin main
    ```
 
-   如果默认分支不是 `main`，把命令里的 `main` 替换成你的默认分支名。
+   If your default branch is not `main`, replace `main` with the actual default branch name.
 
-4. 打开新仓库的 **Settings → Pages**。
-5. 在 **Build and deployment** 里设置：
+4. Open the new repository and go to **Settings -> Pages**.
+5. Under **Build and deployment**, set:
    - Source: `Deploy from a branch`
    - Branch: `main`
    - Folder: `/(root)`
-6. 保存后等待 1–10 分钟，访问：
+6. Save the settings, wait 1-10 minutes, and visit:
 
    ```text
    https://zhuomahome.github.io/
    ```
 
-### 也可以选择转移仓库
+### Alternative: transfer the repository
 
-如果你不想新建仓库，也可以在当前仓库执行：
+If you do not want to create a new repository, use:
 
 ```text
-Settings → General → Danger Zone → Transfer ownership
+Settings -> General -> Danger Zone -> Transfer ownership
 ```
 
-把仓库从 `xderhpl` 转移到 `zhuomahome`。转移后仍需确认仓库名是 `zhuomahome.github.io`，并在 **Settings → Pages** 中选择 `main` + `/(root)`。
+Transfer the repository from `xderhpl` to `zhuomahome`. After the transfer, confirm that the repository name is still `zhuomahome.github.io`, and set GitHub Pages to `main` + `/(root)` under **Settings -> Pages**.
 
-### 不推荐但可选：用自定义域名
+### Optional: use a custom domain
 
-如果无法使用 `zhuomahome` 账号/组织，也可以购买/配置自定义域名，然后在 GitHub Pages 的 Custom domain 中绑定。但这不会把 GitHub 默认地址变成 `https://zhuomahome.github.io/`；默认地址仍由仓库所属账号决定。
+If you cannot use the `zhuomahome` account or organization, you can configure a custom domain in GitHub Pages. However, this will not change the default GitHub Pages URL to `https://zhuomahome.github.io/`; the default URL is determined by the repository owner.
 
-## Merge 后网站没有变化时怎么操作
+## If the website does not change after merging
 
-如果 PR 已经 merge，但是 `https://zhuomahome.github.io/` 仍然显示旧页面，通常不是代码没改，而是 GitHub Pages 还没有发布到正确来源、发布任务失败，或浏览器/CDN 缓存仍在显示旧版本。请按下面顺序检查：
+If the PR has been merged but `https://zhuomahome.github.io/` still shows the old page, the issue is usually the Pages publishing source, a failed deployment, or browser/CDN cache. Check the following:
 
-1. 打开 GitHub 仓库 `zhuomahome.github.io`，进入 **Settings → Pages**。
-2. 在 **Build and deployment** 中确认发布来源：
-   - 如果使用分支发布：选择 **Deploy from a branch**，Branch 选择 `main`（或实际默认分支），Folder 选择 `/(root)`，然后点击 **Save**。
-   - 如果使用 GitHub Actions 发布：确认 Pages Source 选择 **GitHub Actions**，并且 Actions 页面中最新的 Pages workflow 是绿色成功状态。
-3. 打开仓库 **Actions** 页面，查看最新的 `pages-build-deployment` 或 Pages workflow：
-   - 如果是黄色/排队中：等待几分钟后刷新。
-   - 如果是红色失败：点进去看错误日志，通常是 Pages source、权限、Jekyll 构建或 Actions 被禁用导致。
-4. 确认合并后的默认分支根目录能看到新版 `index.html`。这个文件是当前站点最直接的入口。
-5. 等待 1–10 分钟后，用无痕窗口或强制刷新访问：
-   - macOS：`Cmd + Shift + R`
-   - Windows/Linux：`Ctrl + F5`
-   - 也可以在网址后临时加查询参数验证缓存：`https://zhuomahome.github.io/?v=2`
+1. Open the GitHub repository and go to **Settings -> Pages**.
+2. Under **Build and deployment**, confirm the publishing source:
+   - For branch deployment, choose **Deploy from a branch**, set Branch to `main` or the actual default branch, set Folder to `/(root)`, and click **Save**.
+   - For GitHub Actions deployment, confirm that Pages Source is **GitHub Actions** and that the latest Pages workflow is green.
+3. Open the repository **Actions** page and check the latest `pages-build-deployment` or Pages workflow:
+   - If it is queued or in progress, wait a few minutes and refresh.
+   - If it failed, open the log and inspect the error.
+4. Confirm that the merged default branch contains the updated root `index.html`.
+5. Wait 1-10 minutes, then force-refresh or use a private browser window:
+   - macOS: `Cmd + Shift + R`
+   - Windows/Linux: `Ctrl + F5`
+   - You can also test cache busting with `https://zhuomahome.github.io/?v=2`.
 
-## 本地预览
+## Local preview
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-主要内容可在 `_config.yml` 中集中维护；页面结构位于根目录的 Markdown 文件，样式位于 `assets/css/style.css`。
+If Jekyll is not installed locally, preview the static homepage directly:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open `http://127.0.0.1:8000/`.
+
+Most content can be maintained in `_config.yml`; page structure is in the root Markdown files, and styling is in `assets/css/style.css`.

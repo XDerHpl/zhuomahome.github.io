@@ -1,28 +1,12 @@
 ---
 layout: default
-title: 联系
+title: Contact
 permalink: /contact/
 ---
 
-# 联系方式
+# Contact
 
-<section class="card contact-card">
-  <dl>
-    <div>
-      <dt>姓名</dt>
-      <dd>{{ site.profile.name }} / {{ site.profile.name_en }}</dd>
-    </div>
-    <div>
-      <dt>单位</dt>
-      <dd>{{ site.profile.affiliation }}</dd>
-    </div>
-    <div>
-      <dt>邮箱</dt>
-      <dd><a href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a></dd>
-    </div>
-    <div>
-      <dt>办公室</dt>
-      <dd>{{ site.profile.office }}</dd>
-    </div>
-  </dl>
-</section>
+- Name: {{ site.profile.name }}
+- Affiliation: {{ site.profile.affiliation }}
+- Email: <a href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a>
+- Office: {{ site.profile.office }}

@@ -1,61 +1,61 @@
-title: "马卓 | 个人主页"
-description: "马卓教授的学术个人主页"
-lang: zh-CN
+title: "Zhuo Ma | Homepage"
+description: "Academic homepage of Professor Zhuo Ma"
+lang: en
 url: "https://zhuomahome.github.io"
 baseurl: ""
 
 profile:
-  name: "马卓"
+  name: "Zhuo Ma"
   name_en: "Zhuo Ma"
-  title: "教授"
-  affiliation: "请在 _config.yml 中填写学院/大学"
+  title: "Professor"
+  affiliation: "Please add your department and university in _config.yml"
   email: "your.email@example.edu"
-  office: "请填写办公室地址"
+  office: "Please add your office address"
   google_scholar: "#"
   github: "#"
   photo: ""
 
 research_interests:
-  - "研究方向一：请替换为您的主要研究方向"
-  - "研究方向二：请替换为您的主要研究方向"
-  - "研究方向三：请替换为您的主要研究方向"
+  - "Research Area 1: replace with your primary research topic"
+  - "Research Area 2: replace with your primary research topic"
+  - "Research Area 3: replace with your primary research topic"
 
-recruiting: "欢迎对相关研究方向感兴趣的本科生、硕士生、博士生与博士后联系交流。请在邮件中附上简历、成绩单和代表性成果。"
+recruiting: "I am always looking for self-motivated undergraduate students, master students, Ph.D. students, and postdoctoral researchers. Please email me with your CV, transcript, and representative work."
 
 news:
-  - date: "2026-05"
-    text: "个人主页模板上线，后续将持续更新新闻、论文与课程信息。"
-  - date: "2026-04"
-    text: "欢迎有科研兴趣的同学邮件联系，讨论研究实习与研究生申请机会。"
+  - date: "05/2026"
+    text: "The academic homepage template is online and will be updated with news, publications, and teaching information."
+  - date: "04/2026"
+    text: "Prospective students interested in research opportunities are welcome to get in touch by email."
 
 selected_publications:
-  - title: "示例论文题目：请替换为真实论文标题"
-    authors: "作者 A, 作者 B, 马卓"
-    venue: "示例会议/期刊, 2026"
+  - title: "Sample Paper Title: replace with a real publication title"
+    authors: "Author A, Author B, Zhuo Ma"
+    venue: "Sample Conference or Journal, 2026"
     links:
       - label: "PDF"
         url: "#"
       - label: "Code"
         url: "#"
-  - title: "示例论文题目二：请替换为真实论文标题"
-    authors: "作者 A, 马卓, 作者 C"
-    venue: "示例会议/期刊, 2025"
+  - title: "Second Sample Paper Title: replace with a real publication title"
+    authors: "Author A, Zhuo Ma, Author C"
+    venue: "Sample Conference or Journal, 2025"
     links:
       - label: "Project"
         url: "#"
 
 nav:
-  - title: "主页"
+  - title: "Homepage"
     url: "/"
-  - title: "研究"
+  - title: "Research"
     url: "/research/"
-  - title: "论文"
+  - title: "Publications"
     url: "/publications/"
-  - title: "教学"
+  - title: "Teaching"
     url: "/teaching/"
-  - title: "学生"
+  - title: "Students"
     url: "/students/"
-  - title: "联系"
+  - title: "Contact"
     url: "/contact/"
 
 markdown: kramdown

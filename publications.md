@@ -1,35 +1,19 @@
 ---
 layout: default
-title: 论文
+title: Publications
 permalink: /publications/
 ---
 
-# 论文发表
+# Publications
 
-<section class="card">
-  <h2>Selected Publications</h2>
-  <ol class="publication-list">
-    {% for paper in site.selected_publications %}
-    <li>
-      <h3>{{ paper.title }}</h3>
-      <p>{{ paper.authors }}</p>
-      <em>{{ paper.venue }}</em>
-      <span class="paper-links">
-        {% for link in paper.links %}
-        <a href="{{ link.url }}">[{{ link.label }}]</a>
-        {% endfor %}
-      </span>
-    </li>
-    {% endfor %}
-  </ol>
-</section>
+## Selected Publications
 
-<section class="card markdown-card">
+{% for paper in site.selected_publications %}
+* {{ paper.authors }}. {{ paper.title }}. {{ paper.venue }}. {% for link in paper.links %}[{{ link.label }}]({{ link.url }}){% unless forloop.last %} | {% endunless %}{% endfor %}
+{% endfor %}
 
-## 论文列表维护建议
+## Publication List Maintenance Notes
 
-- 可按年份分组，例如 `Papers in 2026`、`Papers in 2025`。
-- 推荐为每篇论文提供 PDF、代码、项目主页或演示链接。
-- 可在 `_config.yml` 的 `selected_publications` 中维护代表作，或后续扩展为 `_data/publications.yml`。
-
-</section>
+- Group papers by year, for example `Papers in 2026` and `Papers in 2025`.
+- Provide PDF, code, project page, slides, or demo links when available.
+- Keep representative papers in `_config.yml` under `selected_publications`, or move the full list to `_data/publications.yml` later.

@@ -1,25 +1,21 @@
 ---
 layout: default
-title: 学生
+title: Students
 permalink: /students/
 ---
 
-# 学生与团队
+# Students and Group
 
-<section class="card markdown-card">
-
-## 招生与合作
+## Recruiting and Collaboration
 
 {{ site.recruiting }}
 
-## 在读学生
+## Current Students
 
-- 学生姓名：研究方向 / 入学年份
-- 学生姓名：研究方向 / 入学年份
+- Student Name: research topic / enrollment year
+- Student Name: research topic / enrollment year
 
-## 毕业学生
+## Alumni
 
-- 学生姓名：毕业去向 / 毕业年份
-- 学生姓名：毕业去向 / 毕业年份
-
-</section>
+- Student Name: first placement / graduation year
+- Student Name: first placement / graduation year
