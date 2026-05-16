@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'zh-CN' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <p class="site-title"><a href="{{ '/' | relative_url }}">Welcome to {{ site.profile.name_en }}'s Homepage</a></p>
+    <nav class="site-nav" aria-label="Main navigation">
+      {% for item in site.nav %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+    {{ content }}
+  </div>
+</body>
+</html>
