@@ -30,24 +30,25 @@ a:visited {
   background: #a40000;
   border-bottom: 3px solid #6e0000;
   color: #ffffff;
-  margin: 0 0 24px;
+  margin: 0 0 14px;
 }
 
 .top-welcome .container {
   align-items: center;
   display: flex;
-  min-height: 82px;
+  height: 24px;
+  min-height: 24px;
 }
 
 .university-logo {
   flex: 0 0 auto;
-  height: 60px;
-  margin-right: 16px;
-  width: 60px;
+  height: 20px;
+  margin-right: 8px;
+  width: 20px;
 }
 
 .site-title {
-  font-size: 32px;
+  font-size: 16px;
   font-weight: bold;
   margin: 0;
 }
@@ -58,19 +59,22 @@ a:visited {
 }
 
 .site-nav {
+  background: #f7f7f7;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin: 0 0 22px;
+  padding: 8px;
 }
 
 .site-nav a,
 .site-nav a:visited {
-  background: #0b62c4;
-  border: 1px solid #074b98;
+  background: #eaf3ff;
+  border: 1px solid #003f8c;
   border-radius: 4px;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28);
-  color: #ffffff;
+  color: #003f8c;
   display: inline-block;
   font-weight: bold;
   padding: 6px 14px;
@@ -79,7 +83,8 @@ a:visited {
 
 .site-nav a:hover,
 .site-nav a:focus {
-  background: #084f9f;
+  background: #dcecff;
+  color: #002f6c;
   text-decoration: none;
 }
 
@@ -160,16 +165,17 @@ li {
   }
 
   .top-welcome .container {
-    min-height: 68px;
+    height: 24px;
+    min-height: 24px;
   }
 
   .university-logo {
-    height: 48px;
-    width: 48px;
+    height: 20px;
+    width: 20px;
   }
 
   .site-title {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .site-nav {
