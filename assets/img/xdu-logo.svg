@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Xidian University emblem placeholder</title>
+  <desc id="desc">A simple red and gold circular XDU emblem placeholder.</desc>
+  <circle cx="48" cy="48" r="46" fill="#b40000" stroke="#7a0000" stroke-width="3"/>
+  <circle cx="48" cy="48" r="35" fill="none" stroke="#ffd777" stroke-width="3"/>
+  <text x="48" y="43" text-anchor="middle" font-family="Times New Roman, serif" font-size="24" font-weight="700" fill="#ffd777">XDU</text>
+  <text x="48" y="62" text-anchor="middle" font-family="Times New Roman, serif" font-size="10" font-weight="700" fill="#ffd777">1931</text>
+</svg>
