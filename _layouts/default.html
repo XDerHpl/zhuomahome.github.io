@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="top-welcome">
+    <div class="container">
+      <img class="university-logo" src="{{ '/assets/img/xdu-logo.svg' | relative_url }}" alt="Xidian University logo placeholder">
+      <p class="site-title"><a href="{{ '/' | relative_url }}">Welcome to {{ site.profile.name }}'s Homepage</a></p>
+    </div>
+  </header>
+
+  <div class="container">
+    <nav class="site-nav" aria-label="Main navigation">
+      {% for item in site.nav %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+    <main>
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>
