@@ -30,24 +30,24 @@ a:visited {
   background: #a40000;
   border-bottom: 3px solid #6e0000;
   color: #ffffff;
-  margin: 0 0 10px;
+  margin: 0 0 14px;
 }
 
 .top-welcome .container {
   align-items: center;
   display: flex;
-  min-height: 54px;
+  min-height: 82px;
 }
 
 .university-logo {
   flex: 0 0 auto;
-  height: 42px;
-  margin-right: 12px;
-  width: 42px;
+  height: 60px;
+  margin-right: 16px;
+  width: 60px;
 }
 
 .site-title {
-  font-size: 18px;
+  font-size: 28px;
   font-weight: bold;
   margin: 0;
 }
@@ -58,11 +58,29 @@ a:visited {
 }
 
 .site-nav {
-  margin: 0 0 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
 }
 
-.site-nav a {
-  margin-right: 0.7em;
+.site-nav a,
+.site-nav a:visited {
+  background: #0b62c4;
+  border: 1px solid #074b98;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28);
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  padding: 6px 14px;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: #084f9f;
+  text-decoration: none;
 }
 
 .profile-block {
@@ -142,12 +160,25 @@ li {
   }
 
   .top-welcome .container {
-    min-height: 50px;
+    min-height: 68px;
   }
 
   .university-logo {
-    height: 38px;
-    width: 38px;
+    height: 48px;
+    width: 48px;
+  }
+
+  .site-title {
+    font-size: 22px;
+  }
+
+  .site-nav {
+    gap: 6px;
+  }
+
+  .site-nav a,
+  .site-nav a:visited {
+    padding: 5px 10px;
   }
 
   .portrait-placeholder {
