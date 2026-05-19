@@ -15,11 +15,21 @@ description: Academic homepage of Professor Zhuo Ma
 
 <strong>Research Area:</strong> He is mainly engaged in research on artificial intelligence, unmanned systems security, privacy-preserving computation, and large language model security.
 
+<strong>Laboratory:</strong> The lab focuses on intelligent security and privacy-preserving computation, spanning AI security, unmanned systems security, privacy-preserving machine learning, and large language model security. The group emphasizes both fundamental research and practical system design for trustworthy, deployable, and privacy-aware intelligent systems.
+
 <strong>实验室长期招收本校及外校优秀本科生进行科研实习。同时常年招聘博士后研究人员。每年均有硕士与博士研究生名额，欢迎联系申请！</strong>
 
 <strong>Email:</strong> <a href="mailto:mazhuo@mail.xidian.edu.cn">mazhuo@mail.xidian.edu.cn</a>
 
 </section>
+
+## Professional Services:
+
+* <strong>Guest Editor:</strong> [Electronics Special Issue on Recent Advances and Applications of Network Security and Cryptography](https://www.mdpi.com/journal/electronics/special_issues/NSC).
+* <strong>Publicity Chair:</strong> [ML4CS 2022, the 4th International Conference on Machine Learning for Cyber Security](https://link.springer.com/book/10.1007/978-3-031-20099-1).
+* <strong>Track Co-Chair:</strong> [NaNA 2026 Track 5: AI/ML in Networks](https://www.nana-conference.org/pc2026.html); [NaNA 2025 Track 5: AI/ML in Networks](https://www.nana-conference.org/pc2025.html); [NaNA 2024 Track 5: AI/ML in Networks](https://www.nana-conference.org/NaNA2024_program%20book.pdf); [NaNA 2023 Track 5: AI/ML in Networks](https://www.nana-conference.org/NaNA2023_program%20book.pdf); [NaNA 2022 Track 1: Wireless Networks](https://www.nana-conference.org/NaNA2022_program%20book.pdf).
+* <strong>Technical Program Committee Member:</strong> [ICICNC 2026 Area 3: Cybersecurity and Privacy](https://www.icicnc.com/); [ICCNC 2024 Track 4: Security & Privacy](https://iccnc.zjnu.edu.cn/_upload/tpl/05/f0/1520/template1520/Program_Committee/program.html).
+* <strong>Selected Manuscript Reviewer:</strong> IEEE Transactions on Dependable and Secure Computing (TDSC), IEEE Transactions on Information Forensics and Security (TIFS), IEEE Transactions on Mobile Computing (TMC), IEEE Transactions on Vehicular Technology (TVT), IEEE Transactions on Industrial Informatics (TII), IEEE Internet of Things Journal, IEEE Transactions on Services Computing (TSC).
 
 ## News:
 

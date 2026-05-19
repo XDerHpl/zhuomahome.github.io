@@ -93,10 +93,10 @@ a:visited {
 }
 
 .portrait-placeholder {
-  border: 1px solid #777777;
+  border: 0;
   float: right;
   height: 190px;
-  margin: 0 0 12px 28px;
+  margin: 67px 0 12px 28px;
   text-align: center;
   width: 150px;
 }
@@ -195,14 +195,14 @@ li {
 
 
 .portrait-photo {
-  background: #f3f3f3;
+  background: transparent;
   overflow: hidden;
 }
 
 .portrait-photo img {
   display: block;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 
