@@ -1,0 +1,62 @@
+title: "Zhuo Ma | Homepage"
+description: "Academic homepage of Professor Zhuo Ma"
+lang: en
+url: "https://zhuomahome.github.io"
+baseurl: ""
+
+profile:
+  name: "Zhuo Ma"
+  name_en: "Zhuo Ma"
+  title: "Professor"
+  affiliation: "Please add your department and university in _config.yml"
+  email: "your.email@example.edu"
+  office: "Please add your office address"
+  google_scholar: "#"
+  github: "#"
+  photo: ""
+
+research_interests:
+  - "Research Area 1: replace with your primary research topic"
+  - "Research Area 2: replace with your primary research topic"
+  - "Research Area 3: replace with your primary research topic"
+
+recruiting: "I am always looking for self-motivated undergraduate students, master students, Ph.D. students, and postdoctoral researchers. Please email me with your CV, transcript, and representative work."
+
+news:
+  - date: "05/2026"
+    text: "The academic homepage template is online and will be updated with news, publications, and teaching information."
+  - date: "04/2026"
+    text: "Prospective students interested in research opportunities are welcome to get in touch by email."
+
+selected_publications:
+  - title: "Sample Paper Title: replace with a real publication title"
+    authors: "Author A, Author B, Zhuo Ma"
+    venue: "Sample Conference or Journal, 2026"
+    links:
+      - label: "PDF"
+        url: "#"
+      - label: "Code"
+        url: "#"
+  - title: "Second Sample Paper Title: replace with a real publication title"
+    authors: "Author A, Zhuo Ma, Author C"
+    venue: "Sample Conference or Journal, 2025"
+    links:
+      - label: "Project"
+        url: "#"
+
+nav:
+  - title: "Homepage"
+    url: "/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "Students"
+    url: "/students/"
+  - title: "Contact"
+    url: "/contact/"
+
+markdown: kramdown
+permalink: pretty
