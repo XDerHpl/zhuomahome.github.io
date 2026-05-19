@@ -8,19 +8,20 @@ profile:
   name: "Zhuo Ma"
   name_en: "Zhuo Ma"
   title: "Professor"
-  affiliation: "Please add your department and university in _config.yml"
-  email: "your.email@example.edu"
+  affiliation: "School of Cyber Engineering, Xidian University"
+  email: "mazhuo@mail.xidian.edu.cn"
   office: "Please add your office address"
-  google_scholar: "#"
+  google_scholar: "https://scholar.google.com/citations?user=uU5Q0mMAAAAJ"
   github: "#"
   photo: ""
 
 research_interests:
-  - "Research Area 1: replace with your primary research topic"
-  - "Research Area 2: replace with your primary research topic"
-  - "Research Area 3: replace with your primary research topic"
+  - "Artificial intelligence"
+  - "Unmanned systems security"
+  - "Privacy-preserving computation"
+  - "Large language model security"
 
-recruiting: "I am always looking for self-motivated undergraduate students, master students, Ph.D. students, and postdoctoral researchers. Please email me with your CV, transcript, and representative work."
+recruiting: "<strong>实验室长期招收本校及外校优秀本科生进行科研实习。同时常年招聘博士后研究人员。每年均有硕士与博士研究生名额，欢迎联系申请！</strong>"
 
 news:
   - date: "05/2026"
@@ -51,12 +52,8 @@ nav:
     url: "/research/"
   - title: "Publications"
     url: "/publications/"
-  - title: "Teaching"
-    url: "/teaching/"
   - title: "Students"
     url: "/students/"
-  - title: "Contact"
-    url: "/contact/"
 
 markdown: kramdown
 permalink: pretty

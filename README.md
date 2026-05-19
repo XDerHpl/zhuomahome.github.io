@@ -80,6 +80,40 @@ If the PR has been merged but `https://zhuomahome.github.io/` still shows the ol
 
 ## Local preview
 
+### Static HTML preview
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\serve-static.ps1
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8000/index.html
+```
+
+### Jekyll preview
+
+Ruby 3.3 with MSYS2 DevKit is installed through `winget`, and project gems are locked in `Gemfile.lock`.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\serve-jekyll.ps1
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4000/
+```
+
+If you open a fresh terminal and `ruby` or `bundle` is not recognized yet, close and reopen the terminal, or temporarily run:
+
+```powershell
+$env:Path = "C:\Ruby33-x64\bin;$env:Path"
+```
+
+### Manual commands
+
 ```bash
 bundle install
 bundle exec jekyll serve

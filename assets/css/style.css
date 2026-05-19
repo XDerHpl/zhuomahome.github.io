@@ -213,3 +213,7 @@ details {
 summary {
   cursor: pointer;
 }
+
+.tier-label {
+  color: #d96c00;
+}
