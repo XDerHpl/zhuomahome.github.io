@@ -29,6 +29,7 @@ description: Academic homepage of Professor Zhuo Ma
 * <strong>Publicity Chair:</strong> [ML4CS 2022, the 4th International Conference on Machine Learning for Cyber Security](https://link.springer.com/book/10.1007/978-3-031-20099-1).
 * <strong>Track Co-Chair:</strong> [NaNA 2026 Track 5: AI/ML in Networks](https://www.nana-conference.org/pc2026.html); [NaNA 2025 Track 5: AI/ML in Networks](https://www.nana-conference.org/pc2025.html); [NaNA 2024 Track 5: AI/ML in Networks](https://www.nana-conference.org/NaNA2024_program%20book.pdf); [NaNA 2023 Track 5: AI/ML in Networks](https://www.nana-conference.org/NaNA2023_program%20book.pdf); [NaNA 2022 Track 1: Wireless Networks](https://www.nana-conference.org/NaNA2022_program%20book.pdf).
 * <strong>Technical Program Committee Member:</strong> [ICICNC 2026 Area 3: Cybersecurity and Privacy](https://www.icicnc.com/); [ICCNC 2024 Track 4: Security & Privacy](https://iccnc.zjnu.edu.cn/_upload/tpl/05/f0/1520/template1520/Program_Committee/program.html).
+* <strong>国内科研组织及学术期刊任职:</strong> 国家自然科学基金委员会流动项目主任; 中国人工智能学会智能服务专委会常务委员; 中国电子学会网络空间安全专委会青年常委; 中国计算机学会数据治理发展委员会执行委员; 软件学报责任编委; 信息安全学报青年编委.
 * <strong>Selected Manuscript Reviewer:</strong> IEEE Transactions on Dependable and Secure Computing (TDSC), IEEE Transactions on Information Forensics and Security (TIFS), IEEE Transactions on Mobile Computing (TMC), IEEE Transactions on Vehicular Technology (TVT), IEEE Transactions on Industrial Informatics (TII), IEEE Internet of Things Journal, IEEE Transactions on Services Computing (TSC).
 
 ## News:
